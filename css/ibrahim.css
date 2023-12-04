@@ -378,7 +378,7 @@ header .mega-menue .links li a {
 .articles .info a {
     color: var(--main-color);
 }
-.articles .info:hover i {
+.articles .box:hover i {
     animation: moving 1s linear infinite;
 }
 /* End Articles */
