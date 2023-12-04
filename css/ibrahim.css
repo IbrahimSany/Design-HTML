@@ -302,8 +302,13 @@ header .mega-menue .links li a {
 }
 .landing .text h1 {
     font-size: 40px;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     margin: 0;
+}
+@media (max-width: 767px) {
+    .landing .text h1 {
+        font-size: 30px;
+    }
 }
 .landing .text p {
     margin-top: 30px;
