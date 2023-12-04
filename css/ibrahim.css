@@ -150,6 +150,11 @@ header .container .main-nav > li:hover .mega-menue {
     z-index: 100;
     top: calc(100% + 1px);
 } 
+@media (max-width: 767px) {
+    header .container .main-nav > li {
+        flex: 1;
+    }
+}
 header .container .main-nav > li > a {
     color: black;
     font-size: 18px;
@@ -161,6 +166,11 @@ header .container .main-nav > li > a {
     justify-content: center;
     position: relative;
     overflow: hidden;
+}
+@media (max-width: 767px) {
+    header .container .main-nav > li > a {
+        margin-left: 0;
+    }
 }
 header .container .main-nav > li > a::after {
     content: '';
