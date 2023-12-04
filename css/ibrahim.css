@@ -152,7 +152,7 @@ header .container .main-nav > li:hover .mega-menue {
 } 
 @media (max-width: 767px) {
     header .container .main-nav > li {
-        flex: 1;
+        width: 80px;
     }
 }
 header .container .main-nav > li > a {
